@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavComponent } from './basic/nav/nav.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BackgroundComponent } from './basic/background/background.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
