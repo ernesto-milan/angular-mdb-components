@@ -8,14 +8,24 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavComponent } from './basic/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './basic/background/background.component';
-import { FooterComponent } from './basic/footer/footer.component'
+import { FooterComponent } from './basic/footer/footer.component';
+import { HomeComponent } from './page/home/home.component';
+import { CamereComponent } from './page/camere/camere.component';
+import { AmbienteComponent } from './page/ambiente/ambiente.component';
+import { OfferteComponent } from './page/offerte/offerte.component';
+import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     BackgroundComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    CamereComponent,
+    AmbienteComponent,
+    OfferteComponent,
+    ChiSiamoComponent
   ],
   imports: [
     BrowserModule,
