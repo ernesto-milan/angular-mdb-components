@@ -1,4 +1,6 @@
+import { ImgTextRComponent } from './../../content/img-text-r/img-text-r.component';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',

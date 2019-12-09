@@ -13,7 +13,8 @@ import { HomeComponent } from './page/home/home.component';
 import { CamereComponent } from './page/camere/camere.component';
 import { AmbienteComponent } from './page/ambiente/ambiente.component';
 import { OfferteComponent } from './page/offerte/offerte.component';
-import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component'
+import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component';
+import { ImgTextRComponent } from './content/img-text-r/img-text-r.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component'
     CamereComponent,
     AmbienteComponent,
     OfferteComponent,
-    ChiSiamoComponent
+    ChiSiamoComponent,
+    ImgTextRComponent
   ],
   imports: [
     BrowserModule,
