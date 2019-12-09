@@ -14,7 +14,8 @@ import { CamereComponent } from './page/camere/camere.component';
 import { AmbienteComponent } from './page/ambiente/ambiente.component';
 import { OfferteComponent } from './page/offerte/offerte.component';
 import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component';
-import { ImgTextRComponent } from './content/img-text-r/img-text-r.component'
+import { ImgTextRComponent } from './content/img-text-r/img-text-r.component';
+import { ImgTextLComponent } from './content/img-text-l/img-text-l.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ImgTextRComponent } from './content/img-text-r/img-text-r.component'
     AmbienteComponent,
     OfferteComponent,
     ChiSiamoComponent,
-    ImgTextRComponent
+    ImgTextRComponent,
+    ImgTextLComponent
   ],
   imports: [
     BrowserModule,
