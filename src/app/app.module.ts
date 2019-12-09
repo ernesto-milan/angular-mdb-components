@@ -16,7 +16,8 @@ import { OfferteComponent } from './page/offerte/offerte.component';
 import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component';
 import { ImgTextRComponent } from './content/img-text-r/img-text-r.component';
 import { ImgTextLComponent } from './content/img-text-l/img-text-l.component';
-import { CardComponent } from './content/card/card.component'
+import { CardComponent } from './content/card/card.component';
+import { JumboComponent } from './content/jumbo/jumbo.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CardComponent } from './content/card/card.component'
     ChiSiamoComponent,
     ImgTextRComponent,
     ImgTextLComponent,
-    CardComponent
+    CardComponent,
+    JumboComponent
   ],
   imports: [
     BrowserModule,

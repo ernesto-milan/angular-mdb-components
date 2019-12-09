@@ -1,4 +1,6 @@
+import { JumboComponent } from './../../content/jumbo/jumbo.component';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-chi-siamo',
