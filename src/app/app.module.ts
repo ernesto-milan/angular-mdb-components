@@ -17,7 +17,8 @@ import { ChiSiamoComponent } from './page/chi-siamo/chi-siamo.component';
 import { ImgTextRComponent } from './content/img-text-r/img-text-r.component';
 import { ImgTextLComponent } from './content/img-text-l/img-text-l.component';
 import { CardComponent } from './content/card/card.component';
-import { JumboComponent } from './content/jumbo/jumbo.component'
+import { JumboComponent } from './content/jumbo/jumbo.component';
+import { ImgTextCComponent } from './content/img-text-c/img-text-c.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { JumboComponent } from './content/jumbo/jumbo.component'
     ImgTextRComponent,
     ImgTextLComponent,
     CardComponent,
-    JumboComponent
+    JumboComponent,
+    ImgTextCComponent
   ],
   imports: [
     BrowserModule,
