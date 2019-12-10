@@ -1,5 +1,6 @@
 import { JumboComponent } from './../../content/jumbo/jumbo.component';
 import { Component, OnInit } from '@angular/core';
+import { ImgTextCComponent } from 'src/app/content/img-text-c/img-text-c.component';
 
 
 @Component({
