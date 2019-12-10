@@ -1,3 +1,17 @@
-<div class="row">
-    <mdb-image-modal [modalImages]="images" type="no-margin"></mdb-image-modal>
+<!-- <div class="container">
+    <div class="row" *ngFor="let i of images">
+        <h1>{{i.id}}</h1>
+       <div class="col-md-4"><img src="{{i}}" alt=""></div>
+        <div class="col-md-4"><img src="{{i}}" alt=""></div>
+        <div class="col-md-4"><img src="{{i}}" alt=""></div>
+    </div>
+</div>-->
+
+<div class="container">
+    <div class="row" *ngFor="let element of array">
+        <div class="col-md-4"><img class="image" src="{{element.name}}" alt=""></div>
+        <div class="col-md-4"><img class="image" src="{{element.name}}" alt=""></div>
+        <div class="col-md-4"><img class="image" src="{{element.name}}" alt=""></div>
+    </div>
 </div>
+

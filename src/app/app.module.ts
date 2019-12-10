@@ -1,3 +1,4 @@
+import { GalleryComponent } from './content/gallery/gallery.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -35,7 +36,8 @@ import { ImgTextCComponent } from './content/img-text-c/img-text-c.component'
     ImgTextLComponent,
     CardComponent,
     JumboComponent,
-    ImgTextCComponent
+    ImgTextCComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
