@@ -1,3 +1,4 @@
+import { BackgroundComponent } from './../../basic/background/background.component';
 import { ImgTextLComponent } from './../../content/img-text-l/img-text-l.component';
 import { ImgTextRComponent } from './../../content/img-text-r/img-text-r.component';
 import { Component, OnInit } from '@angular/core';
