@@ -9,13 +9,13 @@ export class GalleryComponent implements OnInit {
 
   array = [
     {
-      name: '../../assets/front.jpg',
+      name: 'https://images.fineartamerica.com/images-medium-large-5/dark-rose-sq-rick-monyahan.jpg',
     },
     {
-      name: '../../assets/c1.jpeg',
+      name: 'https://images.fineartamerica.com/images-medium-large-5/dark-rose-sq-rick-monyahan.jpg',
     },
     {
-      name: '../../assets/o1.jpeg',
+      name: 'https://images.fineartamerica.com/images-medium-large-5/dark-rose-sq-rick-monyahan.jpg',
     },
   ]
  
